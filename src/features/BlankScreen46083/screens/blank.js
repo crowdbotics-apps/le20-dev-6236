@@ -88,6 +88,19 @@ export class _Blank extends React.Component {
       >
         Login
       </Button>
+      <Button
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid",
+          fontFamily: "System",
+          backgroundColor: "#3366FF"
+        }}
+        onPress={() => alert("Pressed!")}
+      >
+        Reset
+      </Button>
     </View>
   )
 }
