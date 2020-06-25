@@ -988,6 +988,11 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
+"@react-native-community/slider@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/slider/-/slider-3.0.0.tgz#ffbf78689fc0572fb5c1e2ccb61b2ef074d3dcd2"
+  integrity sha512-deNc3JHBHz24YN+0DTAocXfrYFIFc1DvsIriMJSsJlR/MvsLzoq2+qwaEN+0/LJ37pstv85wZWY0pNugk4e41g==
+
 "@react-navigation/core@^3.5.1":
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.5.1.tgz#7a2339fca3496979305fb3a8ab88c2ca8d8c214d"
@@ -5875,7 +5880,7 @@ react-native-gifted-chat@0.13.0:
     react-native-communications "2.2.1"
     react-native-iphone-x-helper "^1.2.0"
     react-native-lightbox "^0.8.1"
-    react-native-parsed-text "git+https://github.com/EvanBacon/react-native-parsed-text.git"
+    react-native-parsed-text "https://github.com/EvanBacon/react-native-parsed-text.git"
     uuid "3.3.3"
 
 react-native-google-signin@2.0.0:
@@ -5915,7 +5920,6 @@ react-native-maps@0.27.1:
 
 "react-native-parsed-text@git+https://github.com/EvanBacon/react-native-parsed-text.git":
   version "0.0.22"
-  uid f55c4713c62961f13a2eec99cbc1ec619615ee72
   resolved "git+https://github.com/EvanBacon/react-native-parsed-text.git#f55c4713c62961f13a2eec99cbc1ec619615ee72"
   dependencies:
     prop-types "^15.5.10"
