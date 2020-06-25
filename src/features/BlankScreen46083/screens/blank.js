@@ -1,5 +1,5 @@
 import React from "react"
-import { View } from "react-native"
+import { View, Image, ImageBackground } from "react-native"
 import {
   withStyles,
   Text,
@@ -8,9 +8,9 @@ import {
   Radio,
   Toggle,
   Icon,
-  Input
+  Input,
+  Datepicker
 } from "react-native-ui-kitten"
-
 import Slider from "@react-native-community/slider"
 
 export class _Blank extends React.Component {
@@ -22,7 +22,6 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View
-      editableName="View1"
       style={{
         overflow: "visible",
         textAlign: "left",
@@ -33,7 +32,8 @@ export class _Blank extends React.Component {
         alignItems: "stretch",
         alignContent: "stretch",
         borderStyle: "solid",
-        backgroundSize: "auto"
+        backgroundSize: "auto",
+        fontFamily: "System"
       }}
     >
       <Text
@@ -41,12 +41,12 @@ export class _Blank extends React.Component {
         placeholder="Username"
         editable={true}
         value=""
-        editableName="Text input2"
         style={{
           overflow: "visible",
           textAlign: "left",
           verticalAlign: "baseline",
-          borderStyle: "solid"
+          borderStyle: "solid",
+          fontFamily: "System"
         }}
       />
       <Text
@@ -54,21 +54,21 @@ export class _Blank extends React.Component {
         placeholder="Password"
         editable={true}
         value=""
-        editableName="Text input3"
-        style={{
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderStyle: "solid"
-        }}
-      />
-      <Button
-        editableName="Button4"
         style={{
           overflow: "visible",
           textAlign: "left",
           verticalAlign: "baseline",
           borderStyle: "solid",
+          fontFamily: "System"
+        }}
+      />
+      <Button
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid",
+          fontFamily: "System",
           backgroundColor: "#3366FF"
         }}
         onPress={() => alert("Pressed!")}
