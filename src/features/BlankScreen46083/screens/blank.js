@@ -51,6 +51,19 @@ export class _Blank extends React.Component {
       />
       <Text
         input
+        placeholder="NewUsername"
+        editable={true}
+        value=""
+        editableName="Text input4"
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid"
+        }}
+      />
+      <Text
+        input
         placeholder="Password"
         editable={true}
         value=""
